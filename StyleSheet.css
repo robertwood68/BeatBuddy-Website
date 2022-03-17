@@ -1,189 +1,285 @@
 /* Styling of the navigation bar at the top of the page and the body */
-nav {
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px, 30px;
-    float: left;
-    display: flex;
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px 0px 0px 0px;
     overflow: hidden;
-    background-color: rgb(79, 0, 140);
+    background-color: #00BCEF;
     position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
-}
-nav a {
-    float: left;
-    display: block;
-    color: rgba(221, 221, 221, 0.884);
+    top: 0;
+    width: 99.35%;
+    border-top: 3px solid rgb(108, 108, 108);
+    border-bottom: 3px solid rgb(108, 108, 108);
+    z-index: 1000;
     text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
 }
-nav a:hover {
-    background: rgb(132, 0, 233);
-    color: rgb(255, 255, 255);
-    opacity: 0.7;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+.li {
+    display: inline-block;
+    font-size: 28px;
+    color: black;
+    width: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f8e9c2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
-nav div {
-    display: block;
-    font-size: 32px;
-    float: left;
-    display: block;
-    color: rgba(221, 221, 221, 0.884);
+.li:first-child {
+    padding-right: 4%;
+    display: inline-block;
+}
+.li a {
+    display: inline-block;
+    color: black;
     text-align: center;
-    padding: 14px 30px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #f8e9c2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
-nav div:hover{
-    background: rgb(79, 0, 140);
-    color: rgba(221, 221, 221, 0.884);
-    opacity: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+.li a:hover {
+    color: #00BCEF;
 }
+.li img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+}
+.logo {
+    background-color: #00BCEF;
+}
+
+
+/* body styling */
 body {
     float: left;
     margin: 0px;
-    background-color: rgb(19, 19, 19);
-    margin-top: 65px;
+    padding-top: 80px;
+    border-left: 5px solid rgb(108, 108, 108);
+    border-right: 5px solid rgb(108, 108, 108);
+    background-color: #f5dfa9;
+    background-image: url("https://storage.googleapis.com/beat-buddy/sand.jpg")
+}
+h1 {
+    color: #f8e9c2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-    /* div styling */
-
+/* div styling */
 /* about div */
 #about {
-    float: left;
-    width: 49.7%;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    width: 75%;
     text-align: center;
-    align-content: center;
-    border-left-style: solid;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-width: 2px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-left-color: rgb(79, 0, 140);
-    border-top-color: rgb(79, 0, 140);
-    border-right-color: rgb(79, 0, 140);
+    border-left: 3px solid rgb(108, 108, 108);
+    border-top: 3px solid rgb(108, 108, 108);
+    border-right: 3px solid rgb(108, 108, 108);
+    background-color: #00BCEF;
 }
 
 /* commands div */
 #commands {
-    float: left;
-    width: 49.7%;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin: 0 auto;
+    padding: 15px;
+    width: 75%;
     text-align: center;
-    align-content: center;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-left-color: rgb(79, 0, 140);
-    border-right-color: rgb(79, 0, 140);
+    border-left: 3px solid rgb(108, 108, 108);
+    border-right: 3px solid rgb(108, 108, 108);
+    background-color: #00BCEF;
 }
 
 /* invite div */
 #invite {
-    float: left;
-    width: 49.7%;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 35px;
+    width: 75%;
     text-align: center;
-    align-content: center;
-    padding-bottom: 20px;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-color: rgb(79, 0, 140);
-    border-right-color: rgb(79, 0, 140);
-    border-bottom-color: rgb(79, 0, 140);
+    border-left: 3px solid rgb(108, 108, 108);
+    border-bottom: 3px solid rgb(108, 108, 108);
+    border-right: 3px solid rgb(108, 108, 108);
+    background-color: #00BCEF;
 }
 
 /* general header, centered paragraph, left-side paragraph, unorganized list, and invite button styling */
 .header {
-    color: white;
+    color: #f8e9c2;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     font-size: 36px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-bottom: 4px solid rgb(79, 0, 140);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 4px solid rgb(108, 108, 108);
 }
 .paragraph {
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
-.paragraph a {
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.paragraph a:hover {
-    color: rgb(127, 16, 213);
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-underline-position: below;
-}
-.leftparagraph{
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+.aboutParagraph {
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: auto;
     text-align: left;
 }
+.paragraph a {
+    color: black;
+}
+.paragraph a:hover {
+    color: #f5dfa9;
+    text-underline-position: below;
+}
+.ulist {
+    color: black;
+    position: relative;
+    list-style-type: circle;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 45%;
+    margin: auto;
+    padding: auto;
+}
 .creditline{
-    color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 .creditline a {
-    color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .creditline a:hover {
-    color: rgb(127, 16, 213);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #f5dfa9;
     text-underline-position: below;
 }
-.ul {
-    color: white;
-    position: relative;
-    list-style-type: circle;
+
+
+/* COMMANDS AND ACTIONS STYLING -- ALL GOOD */
+/* General table styling */
+#generalTable {
+    width: auto;
+    margin-left: 21%;
+    margin-right: 21%;
+    border: 3px solid rgb(108, 108, 108);
+    position: center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5dfa9;
+}
+.genCommand {
+    width: 25%;
+    color: #00BCEF;
+    border-bottom: 3px solid rgb(108, 108, 108);
+    border-right: 2px solid rgb(108, 108, 108);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.genAction {
+    width: auto;
+    color: black;
+    border-bottom: 3px solid rgb(108, 108, 108);
+    border-left: 2px solid rgb(108, 108, 108);
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: left;
 }
+.lastGenCommand {
+    color: #00BCEF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid rgb(108, 108, 108);
+    text-align: center;
+}
+.lastGenAction {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid rgb(108, 108, 108);
+    text-align: left;
+}
+/* Music table styling */
+#musicTable {
+    width: auto;
+    margin-left: 21%;
+    margin-right: 21%;
+    border: 3px solid rgb(108, 108, 108);
+    position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5dfa9;
+}
+.musicCommand {
+    width: 25%;
+    color: #00BCEF;
+    border-bottom: 3px solid rgb(108, 108, 108);
+    border-right: 2px solid rgb(108, 108, 108);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.musicAction {
+    width: auto;
+    color: black;
+    border-bottom: 3px solid rgb(108, 108, 108);
+    border-left: 2px solid rgb(108, 108, 108);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.lastMusicCommand {
+    color: #00BCEF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid rgb(108, 108, 108);
+    text-align: center;
+}
+.lastMusicAction {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid rgb(108, 108, 108);
+    text-align: left;
+}
+
+
+/* Styling of the invite button */
 .invitebutton {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 26px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
-    background-color: rgb(79, 0, 140);
+    color: #00BCEF;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(56, 56, 56);
+    background-color: #f5dfa9;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(83, 83, 83);
 }
 .invitebutton:hover {
-    background-color: rgb(96, 1, 169);
+    background-color: #fdd369;
 }
 .invitebutton:active {
-    background-color: rgb(96, 1, 169);
-    box-shadow: 0 5px #666;
+    background-color: #fdd369;
+    box-shadow: 0 5px rgb(59, 59, 59);
     transform: translateY(4px);
 }
