@@ -49,14 +49,25 @@
             </p>
             <br>
             <ul class="ulist">
-                <li>Spotify and SoundCloud Support</li>
-                <li>A //scrub command that forwards to different points in the audio</li>
-                <li>A //skipto (int) command that skips to a specific song in the queue</li>
-                <li>More commands that return the output as a message embed</li>
+                <li>SoundCloud Support</li>
+                <li>The ability to select one of 5 songs from a YouTube search</li>
                 <li>User-Suggested ideas or commands</li>
             </ul>
             <br>
             <p class="paragraph">So stay tuned for updates on the site and enjoy your time with BeatBuddy!</p>
+        </div>
+
+        <div id="updates">
+            <h1 class="header">Updates</h1>
+            <p class="aboutParagraph"> 
+                As of March 31, 2022, BeatBuddy now supports Spotify song and playlist links!
+                <br> Other updates include:
+            </p>
+            <br>
+            <ul class="ulist">
+                <li>All output from BeatBuddy is now sent as message embeds</li>
+                <li>The //skipto [int] command is now included in BeatBuddy's list of working commands</li>
+            </ul>
         </div>
 
         <!-- "Commands" section -->
@@ -75,7 +86,7 @@
                     <td class="genAction">Says hey to the user who sent the command</td>
                 </tr>
                 <tr>
-                    <td class="genCommand">clear int (aliases: delete, del)</td>
+                    <td class="genCommand">clear [int] (aliases: delete, del)</td>
                     <td class="genAction">Clears the specified integer of messages up to 14 days old</td>
                 </tr>
                 <tr>
@@ -99,6 +110,10 @@
                 <tr>
                     <td class="musicCommand">skip (aliases: next)</td>
                     <td class="musicAction">Skips to the next song in the queue</td>
+                </tr>
+                <tr>
+                    <td class="musicCommand">skipto [int] (aliases: st [int])</td>
+                    <td class="musicAction">Skips to the song at the specified point in the queue</td>
                 </tr>
                 <tr>
                     <td class="musicCommand">pause</td>
@@ -145,7 +160,7 @@
             </a>
             <h1><br>Disclaimers:</h1>
             <p class="paragraph">
-                At this time, BeatBuddy can only play music from <strong>YouTube links</strong> and <strong>searches</strong>.  If a link from any audio provider <strong>besides YouTube</strong> is requested through the play command, BeatBuddy will not be able to find the audio and suggest that the user tries a YouTube link.
+                At this time, BeatBuddy can only play music from <strong>YouTube links</strong>, <strong>searches</strong> and <strong>Spotfiy links</strong>.<br><br>If a link from any audio provider <strong>besides YouTube or Spotify</strong> is requested through the play command, BeatBuddy will not be able to find the audio and suggest that the user tries a YouTube or Spotify link.
             </p>
             <p class="creditline">
                 <br>Developer: Robert Wood, <a href="mailto:l.robertwood@gmail.com">L.robertwood@gmail.com</a>, <a href="mailto:rwood7@ycp.edu">rwood7@ycp.edu</a>.

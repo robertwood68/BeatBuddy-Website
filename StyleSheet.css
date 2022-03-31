@@ -86,6 +86,16 @@ h1 {
     background-color: #00BCEF;
 }
 
+#updates {
+    margin: 0 auto;
+    padding: 15px;
+    width: 75%;
+    text-align: center;
+    border-left: 3px solid rgb(108, 108, 108);
+    border-right: 3px solid rgb(108, 108, 108);
+    background-color: #00BCEF;
+}
+
 /* commands div */
 #commands {
     margin: 0 auto;
