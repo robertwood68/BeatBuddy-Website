@@ -122,6 +122,9 @@ h1 {
 
 /* general header, centered paragraph, left-side paragraph, unorganized list, and invite button styling */
 .header {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto;
     color: #f8e9c2;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
